@@ -1,4 +1,4 @@
-// Returns a new promise object
+// return a promise
 export default function getResponseFromAPI() {
   return new Promise(() => {});
 }
