@@ -1,6 +1,7 @@
 import { uploadPhoto, createUser } from './utils';
-
-// signup process
+/**
+ * sign up process
+ */
 export default async function handleProfileSignup() {
   try {
     const values = await Promise.all([uploadPhoto(), createUser()]);
