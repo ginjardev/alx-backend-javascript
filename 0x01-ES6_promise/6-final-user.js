@@ -1,6 +1,5 @@
 import signUpUser from './4-user-promise';
 import uploadPhoto from './5-photo-reject';
-
 /**
  * Asynchronously handles profile signup by signing up a user and uploading a photo.
  * @param {string} firstName - The first name of the user.
