@@ -8,7 +8,7 @@ import uploadPhoto from './5-photo-reject';
  * @param {string} fileName - The name of the file to upload.
  * @returns {Promise<Array<{status: string, value: any}>>} An array of objects
  * containing the status and value of each operation. The status is either
- * 'fulfilled' or 'rejected'.
+ * 'fulfilled' or 'rejected'..
  */
 export default async function handleProfileSignup(firstName, lastName, fileName) {
   const handlePromise = (promise) => promise
